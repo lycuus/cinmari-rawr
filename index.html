@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Starry Night of Love</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="night-sky">
+        <div class="stars"></div>
+        <div class="twinkling"></div>
+        <div class="shooting-stars"></div>
+        
+        <div class="moon-container">
+            <div class="moon">
+                <div class="crater"></div>
+                <div class="crater"></div>
+                <div class="crater"></div>
+            </div>
+        </div>
+        
+        <div class="container">
+            <h1 class="title">My <span>Love</span> Cinmari</h1>
+            <p class="subtitle">Every moment with you shines brighter than the stars</p>
+            
+            <div class="memory-lane" id="memoryLane"></div>
+            
+            <div class="music-box">
+                <div class="player-controls">
+                    <button id="playBtn"><i class="fas fa-play"></i></button>
+                    <div class="song-info">About You</div>
+                    <button id="muteBtn"><i class="fas fa-volume-up"></i></button>
+                </div>
+                <audio id="loveSong" loop>
+                    <source src="/cin/The 1975 - About You (Official).mp3" type="audio/mpeg">
+                </audio>
+                
+                <div class="lyrics-container">
+                    <div class="lyrics">
+                        <p class="active">I wanna hold you close tonight</p>
+                        <p>And never let you go</p>
+                        <p>Your smile lights up my darkest night</p>
+                        <p>More than you could know</p>
+                        <p>Every moment spent with you</p>
+                        <p>Feels like a dream come true</p>
+                        <p>I'm so in love with everything about you</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
